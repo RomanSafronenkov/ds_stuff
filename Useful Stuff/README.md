@@ -4,6 +4,7 @@
 ### [Блок Дьяконова А.](https://alexanderdyakonov.wordpress.com/)
 ### [GitHub Дьяконова А.](https://github.com/Dyakonov)
 
+- [Illustrated Machine Learning](https://illustrated-machine-learning.github.io/)
 - [Дисбаланс классов](https://alexanderdyakonov.wordpress.com/2021/05/27/imbalance/)
 - [Детектирование аномалий](https://alexanderdyakonov.wordpress.com/2017/04/19/%d0%bf%d0%be%d0%b8%d1%81%d0%ba-%d0%b0%d0%bd%d0%be%d0%bc%d0%b0%d0%bb%d0%b8%d0%b9-anomaly-detection/)
 - [AUC ROC](https://alexanderdyakonov.wordpress.com/?s=AUC+ROC)
