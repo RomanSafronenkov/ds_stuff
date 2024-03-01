@@ -10,7 +10,7 @@
 - [AUC ROC](https://alexanderdyakonov.wordpress.com/?s=AUC+ROC)
 - [Логистическая функция ошибки](https://alexanderdyakonov.wordpress.com/2018/03/12/%d0%bb%d0%be%d0%b3%d0%b8%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%84%d1%83%d0%bd%d0%ba%d1%86%d0%b8%d1%8f-%d0%be%d1%88%d0%b8%d0%b1%d0%ba%d0%b8/)
 - [Проблема калибровки уверенности](https://alexanderdyakonov.wordpress.com/2020/03/27/%d0%bf%d1%80%d0%be%d0%b1%d0%bb%d0%b5%d0%bc%d0%b0-%d0%ba%d0%b0%d0%bb%d0%b8%d0%b1%d1%80%d0%be%d0%b2%d0%ba%d0%b8-%d1%83%d0%b2%d0%b5%d1%80%d0%b5%d0%bd%d0%bd%d0%be%d1%81%d1%82%d0%b8/)
-
+- [Проблема со встроенным RF Feature Importance](https://explained.ai/rf-importance/)
 
 ## Литература
 
