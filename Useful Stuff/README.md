@@ -27,3 +27,6 @@
 - [Материалы курса Технопарк МГТУ им. Баумана](https://github.com/RomanSafronenkov/ds_stuff/tree/main/University/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BF%D0%B0%D1%80%D0%BA)
 - [Материалы с курсов по статистике](https://github.com/RomanSafronenkov/statistics_course)
 - [Материалы mlcourse.ai](https://github.com/RomanSafronenkov/mlcourse.ai)
+
+- [Про Unicode в Python](https://timeweb.cloud/tutorials/python/kak-rabotat-s-unicode-v-python)
+- [Unicode HOWTO](https://docs.python.org/3/howto/unicode.html)
