@@ -1,5 +1,5 @@
-from audioop import bias
-from turtle import forward
+import copy
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -7,7 +7,7 @@ import torch.nn.functional as F
 # hyperparameters
 batch_size = 64  # how many independent sequeces will be processed in parallel
 block_size = 256  # maximum context length
-max_iters = 5000
+max_iters = 2000
 eval_interval = 500
 learning_rate = 3e-4
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -23,7 +23,7 @@ dropout = 0.2
 torch.manual_seed(1337)
 
 # load data
-with open('shakespeare.txt', 'r') as f:
+with open('shakespeare.txt', 'r', encoding='utf-8') as f:
     text = f.read()
 
 # создадим словарь символов
@@ -209,12 +209,18 @@ m = model.to(device)
 # create optimizer
 optimizer = torch.optim.AdamW(m.parameters(), lr=learning_rate)
 
+best_model = copy.deepcopy(m)
+best_val_loss = float('inf')
+
 for iter in range(max_iters):
 
     # every once in a while evaluate the loss on train and val sets
     if iter % eval_interval == 0:
         losses = estimate_loss()
         print(f"step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
+        if losses['val'] < best_val_loss:
+            best_model = copy.deepcopy(m)
+            best_val_loss = losses['val']
 
     # sample a batch
     xb, yb = get_batch('train')
@@ -225,6 +231,9 @@ for iter in range(max_iters):
     loss.backward()
     optimizer.step()
 
+print(f'best loss: {best_val_loss:.4f}')
+
 # generate from the model
 context = torch.zeros((1, 1), dtype=torch.long, device=device)
 print(decode(m.generate(context, max_new_tokens=5000)[0].tolist()))
+print(decode(best_model.generate(context, max_new_tokens=5000)[0].tolist()))
