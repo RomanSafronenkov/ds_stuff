@@ -21,14 +21,14 @@
 
 ## Мои полезные материалы
 
-- [Производные для различных слоев нейронной сети](./Useful\ Stuff/Черновики/Layer\ derivatives.ipynb)
-- [Слои нормализации нейронных сетей](./Useful\ Stuff/Черновики/NNNormalizations.ipynb)
+- [Производные для различных слоев нейронной сети](./Useful%20Stuff/Черновики/Layer%20derivatives.ipynb)
+- [Слои нормализации нейронных сетей](./Useful%20Stuff/Черновики/NNNormalizations.ipynb)
 - [Реализации различных алгоритмов машинного обучения](https://github.com/RomanSafronenkov/Algorithms)
-- [Различные пайплайны решения задач с использованием ML (пополняется)](./Useful\ Stuff/Works)
-- [Реализация мини autograd для интуитивного понимания](./Useful\ Stuff/Notebooks/Autograd)
-- [Реализация gpt-2 с кодом обучения](./Useful\ Stuff/Notebooks/gpt-2)
-- [Step-by-step построения нейронных сетей для NLP + полезные фишки в обучении сетей](./Useful\ Stuff/Notebooks/Makemore)
-- [Про токенизацию в языковых моделях](./Useful\ Stuff/Notebooks/Tokenization)
+- [Различные пайплайны решения задач с использованием ML (пополняется)](./Useful%20Stuff/Works)
+- [Реализация мини autograd для интуитивного понимания](./Useful%20Stuff/Notebooks/Autograd)
+- [Реализация gpt-2 с кодом обучения](./Useful%20Stuff/Notebooks/gpt-2)
+- [Step-by-step построения нейронных сетей для NLP + полезные фишки в обучении сетей](./Useful%20Stuff/Notebooks/Makemore)
+- [Про токенизацию в языковых моделях](./Useful%20Stuff/Notebooks/Tokenization)
 
 ## Литература
 
