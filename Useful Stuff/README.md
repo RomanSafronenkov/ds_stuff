@@ -1,8 +1,15 @@
 # Полезные ссылки на материалы
 
 ### [Учебник ШАД. Машинное обучение](https://academy.yandex.ru/handbook/ml)
+Постоянно дополняется, полезная информация по всем разделам ML
+
 ### [Блок Дьяконова А.](https://alexanderdyakonov.wordpress.com/)
+Много полезных статей по различным аспектам машинного обучения
+
 ### [GitHub Дьяконова А.](https://github.com/Dyakonov)
+Репозитории с различных курсов (ПЗАД, Нейронные сети)
+
+### [Учебник по машинному обучению Дьяконов А.](https://github.com/Dyakonov/MLDM_BOOK)
 
 - [Illustrated Machine Learning](https://illustrated-machine-learning.github.io/)
 - [Дисбаланс классов](https://alexanderdyakonov.wordpress.com/2021/05/27/imbalance/)
@@ -11,6 +18,17 @@
 - [Логистическая функция ошибки](https://alexanderdyakonov.wordpress.com/2018/03/12/%d0%bb%d0%be%d0%b3%d0%b8%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%84%d1%83%d0%bd%d0%ba%d1%86%d0%b8%d1%8f-%d0%be%d1%88%d0%b8%d0%b1%d0%ba%d0%b8/)
 - [Проблема калибровки уверенности](https://alexanderdyakonov.wordpress.com/2020/03/27/%d0%bf%d1%80%d0%be%d0%b1%d0%bb%d0%b5%d0%bc%d0%b0-%d0%ba%d0%b0%d0%bb%d0%b8%d0%b1%d1%80%d0%be%d0%b2%d0%ba%d0%b8-%d1%83%d0%b2%d0%b5%d1%80%d0%b5%d0%bd%d0%bd%d0%be%d1%81%d1%82%d0%b8/)
 - [Проблема со встроенным RF Feature Importance](https://explained.ai/rf-importance/)
+
+## Мои полезные материалы
+
+- [Производные для различных слоев нейронной сети](./Useful\ Stuff/Черновики/Layer\ derivatives.ipynb)
+- [Слои нормализации нейронных сетей](./Useful\ Stuff/Черновики/NNNormalizations.ipynb)
+- [Реализации различных алгоритмов машинного обучения](https://github.com/RomanSafronenkov/Algorithms)
+- [Различные пайплайны решения задач с использованием ML (пополняется)](./Useful\ Stuff/Works)
+- [Реализация мини autograd для интуитивного понимания](./Useful\ Stuff/Notebooks/Autograd)
+- [Реализация gpt-2 с кодом обучения](./Useful\ Stuff/Notebooks/gpt-2)
+- [Step-by-step построения нейронных сетей для NLP + полезные фишки в обучении сетей](./Useful\ Stuff/Notebooks/Makemore)
+- [Про токенизацию в языковых моделях](./Useful\ Stuff/Notebooks/Tokenization)
 
 ## Литература
 
@@ -30,3 +48,5 @@
 
 - [Про Unicode в Python](https://timeweb.cloud/tutorials/python/kak-rabotat-s-unicode-v-python)
 - [Unicode HOWTO](https://docs.python.org/3/howto/unicode.html)
+
+- [Gradient boosting explained](https://www.youtube.com/watch?v=3CC4N4z3GJc&t=178s&ab_channel=StatQuestwithJoshStarmer)
