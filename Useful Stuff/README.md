@@ -21,14 +21,14 @@
 
 ## Мои полезные материалы
 
-- [Производные для различных слоев нейронной сети](./Useful%20Stuff/Черновики/Layer%20derivatives.ipynb)
-- [Слои нормализации нейронных сетей](./Useful%20Stuff/Черновики/NNNormalizations.ipynb)
+- [Производные для различных слоев нейронной сети](https://github.com/RomanSafronenkov/ds_stuff/blob/main/Useful%20Stuff/%D0%A7%D0%B5%D1%80%D0%BD%D0%BE%D0%B2%D0%B8%D0%BA%D0%B8/Layer%20derivatives.ipynb)
+- [Слои нормализации нейронных сетей](https://github.com/RomanSafronenkov/ds_stuff/blob/main/Useful%20Stuff/%D0%A7%D0%B5%D1%80%D0%BD%D0%BE%D0%B2%D0%B8%D0%BA%D0%B8/NNNormalizations.ipynb)
 - [Реализации различных алгоритмов машинного обучения](https://github.com/RomanSafronenkov/Algorithms)
-- [Различные пайплайны решения задач с использованием ML (пополняется)](./Useful%20Stuff/Works)
-- [Реализация мини autograd для интуитивного понимания](./Useful%20Stuff/Notebooks/Autograd)
-- [Реализация gpt-2 с кодом обучения](./Useful%20Stuff/Notebooks/gpt-2)
-- [Step-by-step построения нейронных сетей для NLP + полезные фишки в обучении сетей](./Useful%20Stuff/Notebooks/Makemore)
-- [Про токенизацию в языковых моделях](./Useful%20Stuff/Notebooks/Tokenization)
+- [Различные пайплайны решения задач с использованием ML (пополняется)](https://github.com/RomanSafronenkov/ds_stuff/tree/main/Useful%20Stuff/Works)
+- [Реализация мини autograd для интуитивного понимания](https://github.com/RomanSafronenkov/ds_stuff/tree/main/Useful%20Stuff/Notebooks/Autograd)
+- [Реализация gpt-2 с кодом обучения](https://github.com/RomanSafronenkov/ds_stuff/tree/main/Useful%20Stuff/Notebooks/gpt-2)
+- [Step-by-step построения нейронных сетей для NLP + полезные фишки в обучении сетей](https://github.com/RomanSafronenkov/ds_stuff/tree/main/Useful%20Stuff/Notebooks/Makemore)
+- [Про токенизацию в языковых моделях](https://github.com/RomanSafronenkov/ds_stuff/tree/main/Useful%20Stuff/Notebooks/Tokenization)
 
 ## Литература
 
