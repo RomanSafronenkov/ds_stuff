@@ -29,6 +29,7 @@
 - [Реализация gpt-2 с кодом обучения](https://github.com/RomanSafronenkov/ds_stuff/tree/main/Useful%20Stuff/Notebooks/gpt-2)
 - [Step-by-step построения нейронных сетей для NLP + полезные фишки в обучении сетей](https://github.com/RomanSafronenkov/ds_stuff/tree/main/Useful%20Stuff/Notebooks/Makemore)
 - [Про токенизацию в языковых моделях](https://github.com/RomanSafronenkov/ds_stuff/tree/main/Useful%20Stuff/Notebooks/Tokenization)
+- [Про калибровки](https://github.com/RomanSafronenkov/ds_stuff/tree/main/Useful%20Stuff/Notebooks/Calibration)
 
 ## Литература
 
