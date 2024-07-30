@@ -10,8 +10,8 @@ import tiktoken
 from model import GPTConfig, GPT
 from data.dataloader import DataLoaderOpenWebText
 
-# _MODE = 'from_scratch'  # select mode if needed 'resume'
-_MODE = 'resume'
+_MODE = 'from_scratch'  # select mode if needed 'resume'
+# _MODE = 'resume'
 
 
 logging.basicConfig(format='[%(asctime)s] - [%(levelname)s] - %(message)s',
@@ -66,7 +66,7 @@ model.to(device)
 max_lr = 6e-4
 min_lr = max_lr * 0.1
 warmup_steps = 715
-max_steps = 19073 * 3  # 10B tokens / 524288 batch size is ~ 19073 iterations for one epoch, actually 17234
+max_steps = 17234  # 10B tokens / 524288 batch size is ~ 19073 iterations for one epoch, actually 17234
 def get_lr(it):
     # 1) linear warmup for warmup_iters steps
     if it < warmup_steps:
