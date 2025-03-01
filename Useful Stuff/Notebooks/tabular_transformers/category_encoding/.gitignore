@@ -1,0 +1,33 @@
+# Игнорировать файл с логами
+training.log
+
+# Игнорировать папку с данными
+data/
+
+# Игнорировать веса модели
+best_model.pth
+
+# Игнорировать скрытые файлы и папки
+.*
+!.gitignore
+
+# Игнорировать кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Игнорировать виртуальные окружения
+venv/
+env/
+.venv/
+
+# Игнорировать Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Игнорировать IDE-специфичные файлы
+.vscode/
+.idea/
+
+# Игнорировать системные файлы
+.DS_Store
+Thumbs.db
