@@ -4,6 +4,7 @@ This project demonstrates how to classify tabular data using a neural network wi
 
 ## Project Structure
 
+```
 project/
 │
 ├── data/ # Directory for datasets
@@ -19,6 +20,7 @@ project/
 ├── training.log # Training logs
 ├── tabular_transformers_cat_enc.ipynb # Jupyter notebook with step-by-step explanation
 └── README.md # This file
+```
 
 ## Requirements
 
